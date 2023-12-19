@@ -1,0 +1,94 @@
+{
+  "rutinas": [
+    {
+      "nombre": "Rutina de recuperación para espalda",
+      "descripcion": "Fortalece la espalda con estiramientos y ejercicios específicos para recuperarte después de un accidente.",
+      "ejercicios": [
+        "Ejercicio 1: Estiramientos suaves de espalda,Sentado, inclínate hacia adelante manteniendo la espalda recta.",
+        "Ejercicio 2: Levantamiento de piernas acostado boca abajo,Acostado boca abajo, levanta una pierna a la vez manteniéndola recta.",
+        "Ejercicio 3: Plancha frontal modificada,Apoya antebrazos y dedos de los pies, manteniendo el cuerpo en línea recta.",
+        "Ejercicio 4: Flexiones de cadera,Sentado, apoya manos detrás de ti y eleva las caderas hacia arriba."
+      ]
+    },
+    {
+      "nombre": "Rutina de rehabilitación de piernas",
+      "descripcion": "Mejora la fuerza y movilidad de las piernas después de un accidente, con ejercicios adaptados.",
+      "ejercicios": [
+        "Ejercicio 1: Estiramientos de piernas sentado,Sentado, inclínate hacia adelante extendiendo una pierna.",
+        "Ejercicio 2: Sentadillas asistidas con silla,Baja lentamente hacia una silla y regresa a la posición de pie.",
+        "Ejercicio 3: Elevación de talones de pie,De pie, levanta los talones y luego bájalos lentamente.",
+        "Ejercicio 4: Marcha estacionaria,Levanta las rodillas en sitio manteniendo una postura erguida."
+      ]
+    },
+    {
+      "nombre": "Rutina de recuperación post accidente",
+      "descripcion": "Favorece la recuperación general post-accidente con ejercicios suaves y adaptados a tu estado físico.",
+      "ejercicios": [
+        "Ejercicio 1: Estiramientos suaves de cuerpo completo,Realiza estiramientos suaves para todo el cuerpo.",
+        "Ejercicio 2: Caminata suave o marcha estacionaria,Realiza una caminata suave o levanta las rodillas alternativamente en sitio.",
+        "Ejercicio 3: Ejercicios de respiración profunda,Siéntate o acuéstate y realiza respiraciones profundas.",
+        "Ejercicio 4: Fortalecimiento gradual con resistencia baja,Utiliza bandas elásticas o pesas ligeras para ejercicios de fortalecimiento."
+      ]
+    },
+    {
+      "nombre": "Rutina de movilidad y flexibilidad",
+      "descripcion": "Mejora la movilidad y flexibilidad con estiramientos controlados y movimientos articulares suaves.",
+      "ejercicios": [
+        "Ejercicio 1: Rotaciones de cuello y hombros,Realiza movimientos suaves de rotación para cuello y hombros.",
+        "Ejercicio 2: Estiramientos de extremidades superiores e inferiores,Estira brazos y piernas de manera controlada.",
+        "Ejercicio 3: Yoga suave o tai chi,Practica yoga suave o tai chi para mejorar la flexibilidad.",
+        "Ejercicio 4: Movimientos articulares controlados,Realiza movimientos suaves para todas las articulaciones principales del cuerpo."
+      ]
+    },
+    {
+      "nombre": "Rutina de fortalecimiento de brazos",
+      "descripcion": "Mejora la fuerza y estabilidad de brazos y hombros con ejercicios adaptados.",
+      "ejercicios": [
+        "Ejercicio 1: Flexiones de brazos en pared,Realiza flexiones apoyándote en una pared.",
+        "Ejercicio 2: Elevaciones laterales con pesas ligeras,Levanta pesas ligeras hacia los lados con los brazos extendidos.",
+        "Ejercicio 3: Tríceps en sill,Apóyate en una silla y flexiona los codos para trabajar los tríceps.",
+        "Ejercicio 4: Curl de bíceps con bandas elásticas,Usa bandas elásticas para realizar curls de bíceps."
+      ]
+    },
+    {
+      "nombre": "Rutina de yoga para relajación",
+      "descripcion": "Reduce el estrés y promueve la relajación con movimientos conscientes y atención a la respiración.",
+      "ejercicios": [
+        "Ejercicio 1: Postura del niño,Adopta la postura del niño para estirar la espalda y relajarte.",
+        "Ejercicio 2: Estiramiento del gato-vaca,Realiza el estiramiento del gato-vaca para movilizar la columna.",
+        "Ejercicio 3: Postura del guerrero suave,Practica la postura del guerrero en una versión suave y relajada.",
+        "Ejercicio 4: Savasana (postura del cadáver),Termina con la postura del cadáver para relajar cuerpo y mente."
+      ]
+    },
+    {
+      "nombre": "Rutina de ejercicios de equilibrio",
+      "descripcion": "Mejora tu equilibrio y estabilidad con ejercicios específicos para fortalecer los músculos implicados.",
+      "ejercicios": [
+        "Ejercicio 1: Pararse en una pierna, Practica el equilibrio parándote sobre una pierna.",
+        "Ejercicio 2: Caminar en línea recta, Camina en línea recta manteniendo un paso firme.",
+        "Ejercicio 3: Sentadillas con un solo pie, Realiza sentadillas manteniendo un solo pie en el suelo.",
+        "Ejercicio 4: Cierre de ojos con balanceo lateral, Cierra los ojos y balancea tu cuerpo lateralmente para mejorar el equilibrio."
+      ]
+    },
+    {
+      "nombre": "Rutina de estiramiento de espalda baja",
+      "descripcion": "Alivia la tensión en la zona lumbar con estiramientos específicos para la espalda baja.",
+      "ejercicios": [
+        "Ejercicio 1: Flexión hacia adelante sentado, Sentado, inclínate hacia adelante para estirar la espalda baja.",
+        "Ejercicio 2: Rodilla al pecho acostado, Acostado, lleva una rodilla hacia el pecho para estirar la parte baja de la espalda.",
+        "Ejercicio 3: Estiramiento de gato y camello, Alterna entre arquear y encorvar la espalda en posición de cuatro patas.",
+        "Ejercicio 4: Torsión de columna acostado, Acostado, lleva las rodillas hacia un lado manteniendo los hombros en el suelo para torcer la columna."
+      ]
+    },
+    {
+      "nombre": "Rutina de movimientos articulares",
+      "descripcion": "Mantén la movilidad de las articulaciones con movimientos suaves y controlados en todo el cuerpo.",
+      "ejercicios": [
+        "Ejercicio 1: Rotaciones de muñeca, Realiza rotaciones suaves con las muñecas.",
+        "Ejercicio 2: Movimientos de tobillo, Mueve los tobillos en círculos para mantener su movilidad.",
+        "Ejercicio 3: Flexiones y extensiones de codo, Flexiona y extiende los codos para mantener su flexibilidad.",
+        "Ejercicio 4: Rotación de cuello, Realiza movimientos suaves de rotación con el cuello."
+      ]
+    }
+  ]
+}

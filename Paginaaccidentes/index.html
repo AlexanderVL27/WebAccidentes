@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" style="height: 100%; background-image: url('./imagenes/fondo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules/pixi.js/dist/pixi.min.js"></script>
+    <title>Rutina de Ejercicios Post-Accidente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Rutina de Ejercicios Post-Accidente</h1>
+        <div class="textoContainer">
+            <label id="imagenLabel"></label>
+            <textarea id="textoArea" placeholder="Ingresa el tipo de accidente"></textarea>
+            <div class="grupo-botones grupo1">
+            <button id="mostrarComandosBtn">Mostrar Comandos</button>
+            <button id="obtenerRutina" class="botonCategoria">Obtener Rutina</button>
+        </div>
+        <div class="grupo-botones grupo1">
+            <button id="activarVoiceRecognition" class="botonCategoria">Activar Voz</button>
+            <button id="detenerTextToSpeech" class="botonCategoria">Detener Texto a Voz</button>
+        </div>
+        </div>
+        <div class="imagenContainer">
+            <div id="animacion"></div>
+        </div>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>

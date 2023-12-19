@@ -1,0 +1,313 @@
+
+body {
+  font-family: 'Roboto', sans-serif; /* Cambié la fuente a Roboto para un aspecto moderno */
+  background-color: #f6f6f6; /* Cambio en el tono del fondo */
+  background-image: url('imagenes/fondo.jpg');
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1); /* Sombras más pronunciadas */
+  border-radius: 30px; /* Bordes más redondeados */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./imagenes/fondo.jpg');
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+h1 {
+  color: #070707;
+  font-size: 48px; /* Título más grande */
+  margin-bottom: 30px;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+.imagenContainer, .textoContainer {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 400px;
+}
+
+#imagenLabel {
+  display: block;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #555;
+}
+
+#textoArea {
+  width: calc(100% - 60px); /* Aumenté el espacio alrededor del área de texto */
+  max-height: 200px; /* Mayor altura del área de texto */
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  resize: none;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  display: block; /* Cambié a display block para centrar horizontalmente */
+  margin: 40px auto; /* Margen superior e inferior de 40px y auto a los lados para centrar horizontalmente */
+}
+
+.botonCategoria, #mostrarComandosBtn {
+  width: 200px; /* Ancho fijo para los botones */
+  margin: 15px auto; /* Margen superior e inferior de 15px y auto a los lados para centrar horizontalmente */
+  padding: 16px 32px; /* Más espacio alrededor del texto del botón */
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 15px; /* Bordes más redondeados en los botones */
+  transition: background-color 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombras más suaves */
+}
+
+#textoArea {
+  width: 400px; /* Ancho fijo para el textarea */
+  max-height: 200px; /* Mayor altura del área de texto */
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  resize: none;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  display: block; /* Cambié a display block para centrar horizontalmente */
+  margin: 40px auto; /* Margen superior e inferior de 40px y auto a los lados para centrar horizontalmente */
+}
+
+
+.grupo-botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Estilos para los botones del primer grupo */
+.grupo1 .botonCategoria {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* Estilos para los botones del segundo grupo */
+.grupo2 .botonCategoria {
+  margin-left: 7px;
+}
+
+
+
+.botonCategoria:hover {
+  background-color: #0056b3;
+}
+
+#consejoTextArea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.botonCategoria:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#contenedor {
+    transition: box-shadow 0.3s ease;
+}
+
+#contenedor:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#mostrarComandosBtn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+@-webkit-keyframes swirl-in-bck {
+    0% {
+      -webkit-transform: rotate(540deg) scale(5);
+              transform: rotate(540deg) scale(5);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes swirl-in-bck {
+    0% {
+      -webkit-transform: rotate(540deg) scale(5);
+              transform: rotate(540deg) scale(5);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes swirl-out-bck {
+    0% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes swirl-out-bck {
+    0% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+  }
+  
+  .swirl-in-bck {
+    -webkit-animation: swirl-in-bck 0.65s ease-out both;
+            animation: swirl-in-bck 0.65s ease-out both;
+  }
+  
+  .swirl-out-bck {
+    -webkit-animation: swirl-out-bck 0.6s ease-in both;
+            animation: swirl-out-bck 0.6s ease-in both;
+  }
+  #logo {
+    max-width: 1000px;
+    height: auto;
+    animation: jello-horizontal 1s 50s 5 both;
+  }
+  
+  #logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+        transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    }
+    30% {
+        -webkit-transform: scale3d(0.75, 1.25, 1) translate3d(0, 0, 0);
+        transform: scale3d(0.75, 1.25, 1) translate3d(0, 0, 0);
+    }
+    40% {
+        -webkit-transform: scale3d(1.25, 0.75, 1) translate3d(0, 0, 0);
+        transform: scale3d(1.25, 0.75, 1) translate3d(0, 0, 0);
+    }
+    50% {
+        -webkit-transform: scale3d(0.85, 1.15, 1) translate3d(0, 0, 0);
+        transform: scale3d(0.85, 1.15, 1) translate3d(0, 0, 0);
+    }
+    65% {
+        -webkit-transform: scale3d(1.05, 0.95, 1) translate3d(0, 0, 0);
+        transform: scale3d(1.05, 0.95, 1) translate3d(0, 0, 0);
+    }
+    75% {
+        -webkit-transform: scale3d(0.95, 1.05, 1) translate3d(0, 0, 0);
+        transform: scale3d(0.95, 1.05, 1) translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+        transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    }
+}
+
+@keyframes jello-horizontal {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+        transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    }
+    30% {
+        -webkit-transform: scale3d(0.75, 1.25, 1) translate3d(0, 0, 0);
+        transform: scale3d(0.75, 1.25, 1) translate3d(0, 0, 0);
+    }
+    40% {
+        -webkit-transform: scale3d(1.25, 0.75, 1) translate3d(0, 0, 0);
+        transform: scale3d(1.25, 0.75, 1) translate3d(0, 0, 0);
+    }
+    50% {
+        -webkit-transform: scale3d(0.85, 1.15, 1) translate3d(0, 0, 0);
+        transform: scale3d(0.85, 1.15, 1) translate3d(0, 0, 0);
+    }
+    65% {
+        -webkit-transform: scale3d(1.05, 0.95, 1) translate3d(0, 0, 0);
+        transform: scale3d(1.05, 0.95, 1) translate3d(0, 0, 0);
+    }
+    75% {
+        -webkit-transform: scale3d(0.95, 1.05, 1) translate3d(0, 0, 0);
+        transform: scale3d(0.95, 1.05, 1) translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+        transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    }
+}
+
+.jello-horizontal {
+    -webkit-animation: jello-horizontal 1s 10s 3 both;
+    animation: jello-horizontal 1s 10s 3 both;
+}
+
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" style="height: 100%;">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-image: url('./imagenes/fondo2.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loginBox {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .botonLogin {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .botonLogin:hover {
+      background-color: #0056b3;
+    }
+
+    #logoContainer {
+      margin-top: 20px;
+    }
+
+    #logo {
+      width: 150px; /* Ajusta el tamaño según sea necesario */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loginBox">
+    <h1>Ejercicios para Accidentes</h1>
+    <div id="logoContainer">
+      <img id="logo" src="./imagenes/quiroptactico2.png" alt="Logo">
+    </div>
+    <button class="botonLogin" onclick="window.location.href='index.html'">Acceder</button>
+    <p>Christian Alejandro Aguilera Flores</p>
+  </div>
+</body>
+
+</html>
